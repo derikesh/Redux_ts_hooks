@@ -91,6 +91,10 @@ import { useDispatch , useSelector } from "react-redux";
 
 
 const dispatch = useDispatch();
+
+
+// dispatch(fetchData())
+
 // we will be using useSelctor to display the datas 
 interface RootState {
     loading: boolean;
